@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>henle</title>
+</head>
+<!--
+1.  poplate top form
+
+
+-->
+
+<body>
+    <div>
+        <form>
+            <fieldset id="vocabList">
+                <legend>nomines</legend>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <h4>You've selected: <span id="wordSelected">nothing yet</span></h4> </div>
+    <div>
+        <form id="declension">
+            <fieldset>
+                <legend>declensions</legend>
+                <div id="singular" style="background-color:skyblue">
+                    <p style="background-color:lightblue">singular</p>
+                    <label>nominative
+                        <input type="text" id='sing-nom'> </label>
+                    <br />
+                    <label>genitive
+                        <input type="text" id='sing-gen'> </label>
+                    <br/>
+                    <label>dative
+                        <input type="text" id='sing-dat'> </label>
+                    <br />
+                    <label>accusative
+                        <input type="text" id='sing-acc'> </label>
+                    <br />
+                    <label>ablative
+                        <input type="text" id='sing-abl'> </label>
+                </div>
+                <div id="plural" style="background-color:lightblue">
+                    <p style="background-color:skyblue">plural</p>
+                    <label>nominative
+                        <input type="text" id='plur-nom'> </label>
+                    <br />
+                    <label>genitive
+                        <input type="text" id='plur-gen'> </label>
+                    <br/>
+                    <label>dative
+                        <input type="text" id='plur-dat'> </label>
+                    <br />
+                    <label>accusative
+                        <input type="text" id='plur-acc'> </label>
+                    <br />
+                    <label>ablative
+                        <input type="text" id='plur-abl'> </label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="latwords.js" type="text/javascript"></script>
+    <script src="populate.js" type="text/javascript"></script>
+    <script src="declineSingPlur.js" type="text/javascript"></script>
+    <script>
+    </script>
+</body>
+
+</html>
